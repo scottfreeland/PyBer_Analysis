@@ -5,7 +5,7 @@ The purpose of this analysis is to help a ride-sharing corporation, "PyBer", imp
 
 ## Resources
 - Data Sources: city_data.csv, ride_data.csv
-- Software: Python 3.8.8, Jupyter Notebook : 6.3.0,Visual Studio Code, 1.60.2
+- Software: Python 3.8.8, Jupyter Notebook : 6.3.0, Visual Studio Code, 1.60.2
 
 ## Results
 Here, I produced a DataFrame which displays the daily sum of fares. The top row displays the city types. Then, the first column lists the date of the year we're pinpointing. The columns underneath the headers designating each city type displays the total amount, in USD, that was produced in revenue that day from PyBer fares. This table specifically hones in on data between January 1st, 2019, through April 29th, 2019.
