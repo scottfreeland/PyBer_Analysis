@@ -8,7 +8,7 @@ The purpose of this analysis is to help a ride-sharing corporation *PyBer* impro
 - Software: Python 3.8.8, Jupyter Notebook : 6.3.0, Visual Studio Code, 1.60.2
 
 ## Results
-I produced a DataFrame which displays the sum of fares, updating every time a new ride occurs. You can see it below. The top row displays the city types. The first column lists the exact date-and-time of the year we're pinpointing. The columns underneath the headers designating each city type display the total value, in USD, that was produced in revenue on that ride via PyBer fares. This table specifically hones in on data between January 1st, 2019, through April 29th, 2019.
+I produced a DataFrame which displays the sum of fares, updating every time a new ride occurs. You can see it below. The top row displays the city types. The first column lists the exact date-and-time of the ride that occurred. The columns underneath the headers designating each city type display the total value, in USD, that was produced in revenue on that ride via PyBer fares. This table specifically hones in on data between January 1st, 2019, through April 29th, 2019.
 ![Total Fare by City Type: Daily Data](Resources/total_fare_by_city_type_daily.png)
 
 Since this chart updates for every single ride taken, it is not really helpful for seeing long-term trends. As such, I used the resample() function on the DataFrame above to produce the same data, binned into weeks. Now, we are able to see the data in terms of a weekly basis, as opposed to ride by ride, minute by minute. This lets us see "the bigger picture," through weekly trend patterns.
